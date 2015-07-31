@@ -12,6 +12,8 @@ module.exports.googleapi = {
 
 	  consumer_key: 'YOUR_CONSUMER_KEY',
 	  consumer_secret: 'YOUR_CONSUMER_SECRET',
+	  uri_redirect: 'YOUR_URI_REDIRECT',
+	  javascript_origin: 'YOUR_JAVASCRIPT_ORIGIN',
 	  scope: ['https://www.googleapis.com/auth/calendar', 'https://www.googleapis.com/auth/gmail.modify','https://www.googleapis.com/auth/userinfo.profile','https://www.googleapis.com/auth/userinfo.email']
 
 };
